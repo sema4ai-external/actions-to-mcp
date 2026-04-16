@@ -6,12 +6,12 @@ in order and **stop at the first yes**.
 ```mermaid
 flowchart TD
     A[Sema4.ai action] --> B{Vendor publishes<br/>a remote MCP?}
-    B -- yes --> B1[Use the vendor MCP. Stop.]
-    B -- no  --> C{@query / parameterized<br/>SQL action?}
-    C -- yes --> C1[Extract as an SDM<br/>Verified Query. Stop.]
-    C -- no  --> D{Retired, unused,<br/>superseded?}
-    D -- yes --> D1[Delete the action. Stop.]
-    D -- no  --> E[Migrate to MCP.]
+    B -->|yes| B1[Use the vendor MCP. Stop.]
+    B -->|no| C{"@query / parameterized<br/>SQL action?"}
+    C -->|yes| C1[Extract as an SDM<br/>Verified Query. Stop.]
+    C -->|no| D{Retired, unused,<br/>superseded?}
+    D -->|yes| D1[Delete the action. Stop.]
+    D -->|no| E[Migrate to MCP.]
 ```
 
 ## 1. Does the vendor already publish a remote MCP?

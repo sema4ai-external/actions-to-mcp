@@ -40,25 +40,9 @@ More in [docs/02-mental-model.md](docs/02-mental-model.md).
 
 ```
 docs/          Narrative guide — decide, mental model, setup, patterns, deploy
-examples/      Worked migrations (SharePoint end-to-end, OpenAPI→MCP, …)
+examples/      Worked migration (SharePoint end-to-end)
 .claude/       Skills and slash commands (convert-action-pack)
 ```
-
-## Status
-
-| Section                                                                    | Status        |
-| -------------------------------------------------------------------------- | ------------- |
-| README landing                                                             | shipped       |
-| `01-decide` — decision tree                                                | shipped       |
-| `02-mental-model` — how MCPs differ                                        | shipped       |
-| `03-framework-and-setup` — fastmcp + uv                                    | shipped       |
-| `04-migration-workflow` + `convert-action-pack` skill                      | shipped       |
-| `examples/worked-migration` — SharePoint end-to-end                        | shipped       |
-| `05-sema4-patterns` — context headers, auth, files/threads                 | shipped       |
-| `06-tools-and-testing` — tool design + test strategy + parity              | shipped       |
-| `07-orchestration/*` — Cloud Run, Bedrock AgentCore, Azure Container Apps, gallery pattern | shipped |
-| `08-observability` — pointer to your hosting platform's native tooling     | shipped       |
-| `09-faq`                                                                   | shipped       |
 
 ## Contributing
 

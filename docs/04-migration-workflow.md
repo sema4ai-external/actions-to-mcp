@@ -14,11 +14,11 @@ to stay in the loop.
 
 ```mermaid
 flowchart LR
-    A[Legacy action pack] --> B[Claude Code<br/>+ convert-action-pack skill]
-    B --> C[Inventory +<br/>auth classification]
+    A[Legacy action pack] --> B["Claude Code<br/>+ convert-action-pack skill"]
+    B --> C["Inventory +<br/>auth classification"]
     C --> D[Scaffolded<br/>fastmcp server]
     D --> E[MCP Inspector<br/>local parity check]
-    E --> F[ngrok →<br/>Sema4.ai agent<br/>full-loop test]
+    E --> F["ngrok to<br/>Sema4.ai agent<br/>full-loop test"]
     F --> G[Deploy]
 ```
 
