@@ -1,0 +1,14 @@
+# Claude Code local settings
+.claude/settings.local.json
+
+# Nested git directories (defensive — never vendor another repo's .git)
+.git
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
