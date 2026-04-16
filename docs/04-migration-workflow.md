@@ -155,11 +155,11 @@ ngrok tunnel URL stays the same across server restarts.
 
 Pick one:
 
-- [Cloud Run](07-orchestration/cloud-run.md) *(coming)*
-- [Bedrock AgentCore](07-orchestration/bedrock-agentcore.md) *(coming)*
-- [Azure Container Apps](07-orchestration/azure-container-apps.md) *(coming)*
+- [Cloud Run](07-orchestration/cloud-run.md)
+- [Bedrock AgentCore](07-orchestration/bedrock-agentcore.md)
+- [Azure Container Apps](07-orchestration/azure-container-apps.md)
 - [Multi-MCP gateway](07-orchestration/gallery-pattern.md) — bundle several
-  migrated MCPs behind one endpoint. *(coming)*
+  migrated MCPs behind one endpoint.
 
 Once deployed, re-register the production URL on the Sema4.ai agent,
 retire the ngrok URL, and retire the legacy action pack in Control Room.
